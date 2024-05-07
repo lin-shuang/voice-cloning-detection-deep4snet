@@ -8,6 +8,7 @@ We will improve upon the Deep4SNet deep learning CNN model to counter the voice 
 
 
 # Motivation
+### Impersonation
 ![Impersonation](/Docs/imgs/impersonation.jpg)
 
 [View this post on Instagram](https://www.instagram.com/reel/CztzP8Cx3Yj/?utm_source=ig_embed&utm_campaign=loading)
@@ -15,7 +16,7 @@ We will improve upon the Deep4SNet deep learning CNN model to counter the voice 
 The doctor's voice is cloned to advertise a product as "doctor approved".
 
 
- 
+### Device Hijack
 ![Device Hijack](/Docs/imgs/liu1-p9-liu-small.gif)
 
 The smart speaker in your home can be subject to hijacking. The attacker can then, execute execute on your Siri, Alexa, Google Home, etc. [5]
