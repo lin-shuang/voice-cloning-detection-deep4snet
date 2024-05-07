@@ -7,19 +7,17 @@ We will improve upon the Deep4SNet deep learning CNN model to counter the voice 
 
 
 # Motivation
-![Impersonation](/Docs/CSE398_498%20-%20Deep%20Learning%20-%20Final%20Presentation.pdf#page=2)
-<object data="/Docs/CSE398_498%20-%20Deep%20Learning%20-%20Final%20Presentation.pdf#page=2" type="application/pdf" width="100%" height="600px">
-    <p>PDF could not be displayed.</p>
-</object>
+![Impersonation](/Docs/imgs/impersonation.jpg)
 The doctor's voice is cloned to advertise a product as "doctor approved".
-https://www.instagram.com/reel/CztzP8Cx3Yj/?utm_source=ig_web_copy_link
- 
-![Device Hijack](W#page=2)
-The smart speaker in your home can be subject to hijacking. The attacker can then, execute execute on your Siri, Alexa, Google Home, etc. [5]
+[View this post on Instagram](https://www.instagram.com/reel/CztzP8Cx3Yj/?utm_source=ig_embed&utm_campaign=loading)
 
+ 
+![Device Hijack](/Docs/imgs/liu1-p9-liu-small.gif)
+The smart speaker in your home can be subject to hijacking. The attacker can then, execute execute on your Siri, Alexa, Google Home, etc. [5]
+The attackers, themselves, describes the smart speakers, "As high-permission devices, they can control other IoT devices, exchange data under the cover of valid identities, and even purchase goods or services with the users’ accounts (e.g., Amazon Echo)."
 
 # Deep4SNet
-![Deep4SNet](W#page=5)
+![Deep4SNet](/Docs/imgs/1-s2.0-S0957417421008770-gr10.jpg)
 The backbone of our model follows the Deep4SNet
 CNN architecture [3]. The Deep4SNet model takes
 histograms, converted from real and synthesized
@@ -27,8 +25,8 @@ speech audios, as its input. Deep4SNet is a convolutional neural network solutio
 
 
 # Data
-![Data 1/2](W#page=7)
-![Data 2/2](W#page=8)
+![Data 1/2](/Docs/imgs/data1.jpg)
+![Data 2/2](/Docs/imgs/data2.jpg)
 We use original human recordings from the Fake-or-Real (FoR) Validation dataset and cloned fake voices
 by SiF-DeepVC (SiF) for Farid et al., Deep4SNet, and
 RawNet2 [5]. All 24640 audio files, provided by SiF-DeepVC, are in .wav format and pre-labeled by their
@@ -45,7 +43,7 @@ we also implemented the H-Voice dataset, which was
 what their model trained on
 
 # Filtering
-![Filtering](/Docs/CSE398_498%20-%20Deep%20Learning%20-%20Final%20Presentation.pdf#page=9)
+![Filtering](/Docs/imgs/filtering.jpg)
 As mentioned in the introduction, SiF-DeepVC accounts for the fact that the human voice ranges from 300 - 3400 Hz by silencing anything below 4000
 Hz, so we decided to implement a filter in hopes of
 combating their approach. Our filter, applied before
@@ -57,9 +55,9 @@ completely different dataset that we use for training,
 validation, and testing independently.
 
 # Results
-![Results 1/3](W#page=13)
-![Results 2/3](W#page=14)
-![Results 3/3](W#page=15)
+![Results 1/3](/Docs/imgs/results1.jpg)
+![Results 2/3](/Docs/imgs/results2.jpg)
+![Results 3/3](/Docs/imgs/results3.jpg)
 It seems that by training the Deep4SNet model
 on other handcrafted SiF examples, it can prevent
 the effects of camouflage in handcrafted SiFs, even
