@@ -8,16 +8,20 @@ We will improve upon the Deep4SNet deep learning CNN model to counter the voice 
 
 # Motivation
 ![Impersonation](/Docs/imgs/impersonation.jpg)
-The doctor's voice is cloned to advertise a product as "doctor approved".
 [View this post on Instagram](https://www.instagram.com/reel/CztzP8Cx3Yj/?utm_source=ig_embed&utm_campaign=loading)
+
+The doctor's voice is cloned to advertise a product as "doctor approved".
+
 
  
 ![Device Hijack](/Docs/imgs/liu1-p9-liu-small.gif)
+
 The smart speaker in your home can be subject to hijacking. The attacker can then, execute execute on your Siri, Alexa, Google Home, etc. [5]
 The attackers, themselves, describes the smart speakers, "As high-permission devices, they can control other IoT devices, exchange data under the cover of valid identities, and even purchase goods or services with the users’ accounts (e.g., Amazon Echo)."
 
 # Deep4SNet
 ![Deep4SNet](/Docs/imgs/1-s2.0-S0957417421008770-gr10.jpg)
+
 The backbone of our model follows the Deep4SNet
 CNN architecture [3]. The Deep4SNet model takes
 histograms, converted from real and synthesized
@@ -27,6 +31,7 @@ speech audios, as its input. Deep4SNet is a convolutional neural network solutio
 # Data
 ![Data 1/2](/Docs/imgs/data1.jpg)
 ![Data 2/2](/Docs/imgs/data2.jpg)
+
 We use original human recordings from the Fake-or-Real (FoR) Validation dataset and cloned fake voices
 by SiF-DeepVC (SiF) for Farid et al., Deep4SNet, and
 RawNet2 [5]. All 24640 audio files, provided by SiF-DeepVC, are in .wav format and pre-labeled by their
@@ -44,6 +49,7 @@ what their model trained on
 
 # Filtering
 ![Filtering](/Docs/imgs/filtering.jpg)
+
 As mentioned in the introduction, SiF-DeepVC accounts for the fact that the human voice ranges from 300 - 3400 Hz by silencing anything below 4000
 Hz, so we decided to implement a filter in hopes of
 combating their approach. Our filter, applied before
@@ -58,6 +64,7 @@ validation, and testing independently.
 ![Results 1/3](/Docs/imgs/results1.jpg)
 ![Results 2/3](/Docs/imgs/results2.jpg)
 ![Results 3/3](/Docs/imgs/results3.jpg)
+
 It seems that by training the Deep4SNet model
 on other handcrafted SiF examples, it can prevent
 the effects of camouflage in handcrafted SiFs, even
@@ -90,7 +97,7 @@ classification. Expert Systems with Applications, 184:115465,
 2021.
 
 [4] Dora Maria Ballesteros L, Yohanna Patricia Rodriguez, and
-Diego Renza. H-voice: Fake voice histograms (imitation+deepvoice), 2020.
+Diego Renza. H-voice: Fake voice histograms (imitation+deepvoice), 2020.
 
 [5] Xin Liu, Yuan Tan, Xuan Hai, Qingchen Yu, and Qingguo Zhou.
 Hidden-in-wave: A novel idea to camouflage ai-synthesized
@@ -101,4 +108,4 @@ International Symposium on Software Reliability Engineering
 [6] Hemlata Tak, Jose Patino, Massimiliano Todisco, Andreas
 Nautsch, Nicholas Evans, and Anthony Larcher. End-to-end
 anti-spoofing with rawnet2. In ICASSP 2021 - 2021 IEEE
-International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 6369–6373, 2021
+International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 6369–6373, 2021
