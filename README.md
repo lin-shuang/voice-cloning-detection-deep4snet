@@ -2,12 +2,14 @@
 
 Shuang Lin, BS. COGS || Thomas Snipes, MS. CSE
 
+Lehigh University
 
 We will improve upon the Deep4SNet deep learning CNN model to counter the voice clones that have been camouflaged by the SiF-DeepVC method.
 
 
 # Motivation
 ![Impersonation](/Docs/imgs/impersonation.jpg)
+
 [View this post on Instagram](https://www.instagram.com/reel/CztzP8Cx3Yj/?utm_source=ig_embed&utm_campaign=loading)
 
 The doctor's voice is cloned to advertise a product as "doctor approved".
