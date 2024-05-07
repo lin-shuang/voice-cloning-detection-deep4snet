@@ -6,6 +6,8 @@ Lehigh University
 
 We will improve upon the Deep4SNet deep learning CNN model to counter the voice clones that have been camouflaged by the SiF-DeepVC method.
 
+# Demo
+If you want to test out our voice cloning detection, open the Demo.ipynb follow the instructions.
 
 # Motivation
 ### Impersonation
